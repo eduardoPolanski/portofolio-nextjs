@@ -66,7 +66,12 @@ export default function Home() {
             </p>
           </div>
           <div className="flex text-5xl justify-center gap-16 py-3 text-gray-600">
-            <AiFillLinkedin />
+            <a
+              href="https://www.linkedin.com/in/eduardo-polanski-432b84209/"
+              target="_blank" rel="noreferrer"
+            >
+              <AiFillLinkedin />
+            </a>
             <AiFillFacebook />
             <AiFillInstagram />
           </div>
